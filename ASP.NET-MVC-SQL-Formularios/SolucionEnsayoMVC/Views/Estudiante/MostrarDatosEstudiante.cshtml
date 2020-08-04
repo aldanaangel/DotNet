@@ -1,0 +1,108 @@
+﻿@model SolucionEnsayoMVC.Models.DatosEstudiante
+
+@{
+    ViewBag.Title = "Página de Presentación de los datos del estudiante.";
+}
+<!--Formulario HTML con etiquetas Razor para obtener los datos a partir del Model y ViewData-->
+<div id="formularioConsulta" style="padding:20px;">
+
+    <center><h2>RESUMEN DE LAS NOTAS DEL ESTUDIANTE</h2></center>
+    <br />
+    <table id="tablaEstudiantes" border="3" style="width:60%" cellpadding="10" align="center">
+        <tr>
+            <td style="width: 180px">
+                <label id="lbl_Nombre"> Nombre del Estudiante:</label>
+            </td>
+            <td align="center" colspan="3">
+                <label id="txt_Nombre" name="txt_Nombre"><b>@Model.Nombre</b></label>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 180px">
+                <label id="lbl_Apellido"> Apellido del Estudiante:</label>
+            </td>
+            <td align="center" colspan="3">
+                <label id="txt_Apellido" name="txt_Apellido"><b>@Model.Apellido</b></label>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 180px">
+                <label id="lbl_Nota1"> Nota Primer Corte: </label>
+            </td>
+            <td align="center">
+                <label id="txt_Nota1" name="txt_Nota1"><b>@ViewData["ValorNota1"]</b></label>
+            </td>
+            <td align="center">
+                <label id="lbl_Porcentaje1"> Porcentaje (20%) </label>
+            </td>
+            <td align="center">
+                <label id="txt_Nota1" name="txt_Nota1"><b>@Model.Nota1</b></label>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 180px">
+                <label id="lbl_Nota2"> Nota Segundo Corte: </label>
+            </td>
+            <td align="center">
+                <label id="txt_Nota2" name="txt_Nota2"><b>@ViewData["ValorNota2"]</b></label>
+            </td>
+            <td align="center">
+                <label id="lbl_Porcentaje2"> Porcentaje (20%) </label>
+            </td>
+            <td align="center">
+                <label id="txt_Nota2" name="txt_Nota2"><b>@Model.Nota2</b></label>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 180px">
+                <label id="lbl_Nota3"> Nota Tercer Corte: </label>
+            </td>
+            <td align="center">
+                <label id="txt_Nota3" name="txt_Nota3"><b>@ViewData["ValorNota3"]</b></label>
+            </td>
+            <td align="center">
+                <label id="lbl_Porcentaje3"> Porcentaje (30%) </label>
+            </td>
+            <td align="center">
+                <label id="txt_Nota3" name="txt_Nota3"><b>@Model.Nota3</b></label>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 180px">
+                <label id="lbl_Nota4"> Nota Cuarto Corte: </label>
+            </td>
+            <td align="center">
+                <label id="txt_Nota4" name="txt_Nota4"><b>@ViewData["ValorNota4"]</b></label>
+            </td>
+            <td align="center">
+                <label id="lbl_Porcentaje4"> Porcentaje (30%) </label>
+            </td>
+            <td align="center">
+                <label id="txt_Nota4" name="txt_Nota4"><b>@Model.Nota4</b></label>
+            </td>
+        </tr>
+        <tr>
+            <td><label id="notaTotal">Nota final: </label></td>
+            <td align="center" colspan="3"><label>@Model.NotaTotal</label></td>
+        </tr>
+        <tr>
+            <td><label id="estadoEstudiante">Estado de la asignatura: </label></td>
+            @if (Model.NotaTotal > 60)
+            {
+                <td align="center" colspan="3"><label>¡APROBADO!</label></td>
+            }
+            else
+            {
+                <td align="center" colspan="3"><label>¡REPROBADO!</label></td>
+            }
+        </tr>
+
+    </table>
+    <br />
+    <div>
+        <center><h4>@Html.ActionLink("Regresar al Formulario del Estudiante", "CapturarDatosEstudiante", "Estudiante")</h4></center>
+        <center><h4>@Html.ActionLink("Regresar a la Página Principal", "Index", "Home")</h4></center> 
+    </div>
+</div>
+<div>
+</div>

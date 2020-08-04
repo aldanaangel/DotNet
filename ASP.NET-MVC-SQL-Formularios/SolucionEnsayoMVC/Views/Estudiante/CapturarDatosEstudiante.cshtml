@@ -1,0 +1,98 @@
+﻿@model SolucionEnsayoMVC.Models.DatosEstudiante
+
+@{
+    ViewBag.Title = "Formulario para capturar los datos del estudiante";
+}
+
+<!-- Función Javascript para confirmar el envio de la informacion ingresada en el formulario-->
+
+<script type="text/javascript" language="JavaScript">
+    function validarEnvio() {
+        var confirmacion = confirm("¿Desea almacenar los datos? (S/N)");
+
+        if (confirmacion == true) {
+            return (true);
+        }
+        else {
+            alert("Se canceló el envío");
+            return (false);
+        }
+    }
+</script>
+
+<!--Formulario HTML para la captura de los datos del estudiante-->
+<div id="formulario" style="padding:20px;">
+    <center><h2>FORMULARIO DE REGISTRO DE NOTAS PARA ESTUDIANTES DE LA UNIVERSIDAD EAN</h2></center>
+    <center><h2>ELECTIVA PROFESIONAL EN DESARROLLO EN .NET FRAMEWORK.</h2></center>
+    <br />
+    <br />
+    <form id="formularioEstudiante" name="formularioEstudiante"
+          method="post" action="ProcesarFormularioEstudiante" onsubmit="return validarEnvio();">
+        <table id="tablaNotas" border="3" style="width:60%" cellpadding="30" align="center">
+            <tr>
+                <td style="width: 180px">
+                    <label id="lbl_Nombre"> Nombre del Estudiante:</label>
+                </td>
+                <td align="center">
+                    <input type="text" id="txt_Nombre" name="txt_Nombre"
+                           size="40" placeholder=" Ingrese el nombre del Estudiante " />
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 180px">
+                    <label id="lbl_Apellido"> Apellido del Estudiante:</label>
+                </td>
+                <td align="center">
+                    <input type="text" id="txt_Apellido" name="txt_Apellido"
+                           size="40" placeholder=" Ingrese el apellido del Estudiante " />
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 180px">
+                    <label id="lbl_Nota1"> Nota Primer Corte: </label>
+                </td>
+                <td align="center">
+                    <input type="text" id="txt_Nota1" name="txt_Nota1"
+                           placeholder=" Ingrese el valor de la nota" size="40" />
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 180px">
+                    <label id="lbl_Nota2"> Nota Segundo Corte: </label>
+                </td>
+                <td align="center">
+                    <input type="text" id="txt_Nota2" name="txt_Nota2"
+                           placeholder=" Ingrese el valor de la nota" size="40" />
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 180px">
+                    <label id="lbl_Nota3"> Nota Tercer Corte: </label>
+                </td>
+                <td align="center">
+                    <input type="text" id="txt_Nota3" name="txt_Nota3"
+                           placeholder=" Ingrese el valor de la nota" size="40" />
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 180px">
+                    <label id="lbl_Nota3"> Nota Cuarto Corte: </label>
+                </td>
+                <td align="center">
+                    <input type="text" id="txt_Nota4" name="txt_Nota4"
+                           placeholder=" Ingrese el valor de la nota" size="40" />
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" id="botonEnviar" name="botonEnviar" value="Registrar Notas" />
+                    &nbsp;&nbsp;
+                    <input type="reset" id="botonReestablecer" name="botonReestablecer" value="Reestablecer" />
+                </td>
+            </tr>
+        </table>
+        <br />
+        <div><center><h4>@Html.ActionLink("Regresar a la Página Principal", "Index", "Home")</h4></center></div>      
+    </form>
+</div>

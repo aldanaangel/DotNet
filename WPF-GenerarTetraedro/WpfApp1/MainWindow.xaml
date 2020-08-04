@@ -1,0 +1,109 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		
+		mc:Ignorable="d"
+		Title="MainWindow" Height="558.333" Width="978.571">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="516*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="8*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="0"/>
+                <GradientStop Color="#FF8096BD" Offset="0.626"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button Name="TriangleButton" Click="triangleButtonClick" Width="200" Margin="72,398,699,77" Foreground="#FF3C0101" FontSize="16" FontFamily="Sitka Small">
+
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background> Generar el Tetraedro
+        </Button>
+        <Viewport3D Name="MainViewPort" ClipToBounds="True" Margin="448,113,155,137">
+            <Viewport3D.Camera>
+                <PerspectiveCamera 
+	                FarPlaneDistance="100"
+	                LookDirection="-12,-11,-10"
+	                UpDirection="0,1,0"
+	                NearPlaneDistance="1" 
+	                Position="11,10,9" 
+	                FieldOfView="50" >
+                    <PerspectiveCamera.Transform>
+                        <Transform3DGroup>
+                            <RotateTransform3D>
+                                <!--Take care of x rotation of camera-->
+                                <RotateTransform3D.Rotation>
+                                    <AxisAngleRotation3D x:Name="rotateX" Axis="0 1 0 " Angle="0" />
+                                </RotateTransform3D.Rotation>
+                            </RotateTransform3D>
+                            <RotateTransform3D>
+                                <!--Take care of y rotation of camera-->
+                                <RotateTransform3D.Rotation>
+                                    <AxisAngleRotation3D x:Name="rotateY" Axis="1 0 0 " Angle="0" />
+                                </RotateTransform3D.Rotation>
+                            </RotateTransform3D>
+                        </Transform3DGroup>
+                    </PerspectiveCamera.Transform>
+                </PerspectiveCamera>
+            </Viewport3D.Camera>
+
+            <ModelVisual3D>
+                <ModelVisual3D.Content>
+                    <DirectionalLight 
+		        Color="White" 
+		        Direction="-2,-3,-1" />
+                </ModelVisual3D.Content>
+            </ModelVisual3D>
+        </Viewport3D>
+        <Button x:Name="Izquierda" Content="◄" HorizontalAlignment="Left" Height="26" Margin="122,295,0,0" VerticalAlignment="Top" Width="26" Click="Button_Click" FontSize="18" FontWeight="Bold" RenderTransformOrigin="1.389,0.405">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Derecha" Content="►" HorizontalAlignment="Left" Height="26" Margin="204,295,0,0" VerticalAlignment="Top" Width="26" FontWeight="Bold" FontSize="18" RenderTransformOrigin="1.654,1.731" Click="Derecha_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Abajo" Content="▼" HorizontalAlignment="Left" Height="28" Margin="163,339,0,0" VerticalAlignment="Top" Width="26" Click="Abajo_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="centro" Content="•" HorizontalAlignment="Left" Height="28" Margin="163,295,0,0" VerticalAlignment="Top" Width="26" FontSize="20" Click="Centro_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF4ECEE2" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Arriba" Content="▲" HorizontalAlignment="Left" Height="28" Margin="162,252,0,0" VerticalAlignment="Top" Width="27" Click="Arriba_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>
+
+

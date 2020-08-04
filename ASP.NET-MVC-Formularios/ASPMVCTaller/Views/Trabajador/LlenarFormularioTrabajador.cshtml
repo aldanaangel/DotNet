@@ -1,0 +1,91 @@
+﻿
+@model ASPMVCTaller.Models.DatosTrabajador
+
+
+@{
+    ViewBag.Title = "Formulario para capturar los datos del trabajador";
+}
+<!-- ********************************************************* -->
+<!-- ********************************************************* -->
+<!-- ********************************************************* -->
+<script type="text/javascript" language="JavaScript">
+    function validarEnvio() {
+        var confirmacion = confirm("¿Desea almacenar los datos? (S/N)");
+
+        if (confirmacion == true) {
+            return (true);
+        }
+        else {
+            alert("Se canceló el envío");
+            return (false);
+        }
+    }
+</script>
+<div id="formularioCreacion" style="padding:20px;">
+    <h2>FORMULARIO DE REGISTRO DE TRABAJADORES</h2>
+    <br />
+    <br />
+    <form id="formularioTrabajadores" name="formularioTrabajadores"
+          method="post" action="ProcesarFormularioTrabajador" onsubmit="return validarEnvio();">
+        <table id="tablaTrabajadores" border="1" style="width:100%" cellpadding="10">
+            <tr>
+                <td style="width: 143px">
+                    <label id="lbl_Nombre">Nombre Trabajador:</label>
+                </td>
+                <td>
+                    <input type="text" id="txt_Nombre" name="txt_Nombre"
+                           size="40" placeholder="Digite el nombre del Trabajador" />
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 143px">
+                    <label id="lbl_Apellido">Apellido Trabajador:</label>
+                </td>
+                <td>
+                    <input type="text" id="txt_Apellido" name="txt_Apellido"
+                           size="40" placeholder="Digite el apellido del Trabajador" />
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 143px">
+                    <label id="lbl_Horas">Numero de horas trabajadas:</label>
+                </td>
+                <td>
+                    <input type="text" id="txt_Horas" name="txt_Horas"
+                           placeholder="Digite el número de horas trabajadas" size="40" />
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 143px">
+                    <label id="lbl_Valor">Valor de la hora:</label>
+                </td>
+                <td>
+                    <input type="text" id="txt_Valor" name="txt_Valor"
+                           placeholder="Digite el valor de la hora" size="40" />
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 143px">
+                    <label id="lbl_Riesgo" for="txt_Riesgo">Nivel del riesgo:</label>
+                </td>
+
+                <td>
+                    <input type="text" id="txt_Riesgo" name="txt_Riesgo"
+                           size="40" placeholder="Digite el indice del riesgo (valores del 1 al 4)" />
+                </td>
+
+
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" id="botonEnviar" name="botonEnviar" value="Registrar Notas" />
+                    &nbsp;&nbsp;
+                    <input type="reset" id="botonReestablecer" name="botonReestablecer" value="Reestablecer" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+
+

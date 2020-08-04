@@ -1,0 +1,82 @@
+C:\Users\Usuario\Desktop\Electiva .NET\Corte 3\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Electiva .NET\Corte 3\TallerWPF\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Usuario\Desktop\Electiva .NET\Corte 3\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Usuario\Desktop\Electiva .NET\Corte 3\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\Usuario\Desktop\Electiva .NET\Corte 3\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Electiva .NET\Corte 3\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Electiva .NET\Corte 3\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Electiva .NET\Corte 3\TallerWPF\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\Usuario\Desktop\Electiva .NET\Corte 3\TallerWPF\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\Usuario\Desktop\Electiva .NET\Corte 3\TallerWPF\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\Usuario\Desktop\Electiva .NET\Corte 3\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Usuario\Desktop\Electiva .NET\Corte 3\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\Usuario\Desktop\Electiva .NET\Corte 3\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\Usuario\Desktop\Electiva .NET\Corte 3\TallerWPF\WpfApp1\WpfApp1\obj\Debug\Punto2.g.cs
+C:\Users\Usuario\Desktop\Electiva .NET\Corte 3\TallerWPF\WpfApp1\WpfApp1\obj\Debug\Punto2.baml
+C:\Users\Usuario\Desktop\Electiva .NET\Corte 3\TallerWPF\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Usuario\Desktop\Electiva .NET\Corte 3\TallerWPF\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\Angel\GIT\Projects\dotNet\TallerWPF\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\User\Desktop\Angel\GIT\Projects\dotNet\TallerWPF\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\User\Desktop\Angel\GIT\Projects\dotNet\TallerWPF\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\User\Desktop\Angel\GIT\Projects\dotNet\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Angel\GIT\Projects\dotNet\TallerWPF\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\Angel\GIT\Projects\dotNet\TallerWPF\WpfApp1\WpfApp1\obj\Debug\Punto2.g.cs
+C:\Users\User\Desktop\Angel\GIT\Projects\dotNet\TallerWPF\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\User\Desktop\Angel\GIT\Projects\dotNet\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\User\Desktop\Angel\GIT\Projects\dotNet\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\User\Desktop\Angel\GIT\Projects\dotNet\TallerWPF\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\Angel\GIT\Projects\dotNet\TallerWPF\WpfApp1\WpfApp1\obj\Debug\Punto2.baml
+C:\Users\User\Desktop\Angel\GIT\Projects\dotNet\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\User\Desktop\Angel\GIT\Projects\dotNet\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\User\Desktop\Angel\GIT\Projects\dotNet\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Angel\GIT\Projects\dotNet\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Angel\GIT\Projects\dotNet\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\User\Desktop\Angel\GIT\Projects\dotNet\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\Usuario\Desktop\Electiva .NET\Corte 3\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\Usuario\Desktop\Electiva .NET\Corte 3\TallerWPF\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\Usuario\Desktop\Electiva .NET\Corte 3\TallerWPF\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Usuario\Desktop\Electiva .NET\Corte 3\TallerWPF\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\Usuario\Desktop\Electiva .NET\Corte 3\TallerWPF\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Usuario\Desktop\Electiva .NET\Corte 3\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\User\Desktop\Angel\GIT\Projects\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Angel\GIT\Projects\TallerWPF\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\Angel\GIT\Projects\TallerWPF\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\Angel\GIT\Projects\TallerWPF\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\User\Desktop\Angel\GIT\Projects\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\User\Desktop\Angel\GIT\Projects\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\User\Desktop\Angel\GIT\Projects\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\User\Desktop\Angel\GIT\Projects\TallerWPF\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\User\Desktop\Angel\GIT\Projects\TallerWPF\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\User\Desktop\Angel\GIT\Projects\TallerWPF\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\User\Desktop\Angel\GIT\Projects\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\User\Desktop\Angel\GIT\Projects\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\User\Desktop\Angel\GIT\Projects\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Angel\GIT\Projects\TallerWPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\AldanaAngel_CostaDaniel_TallerWPF\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\User\Downloads\AldanaAngel_CostaDaniel_TallerWPF\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\User\Downloads\AldanaAngel_CostaDaniel_TallerWPF\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\User\Downloads\AldanaAngel_CostaDaniel_TallerWPF\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\User\Downloads\AldanaAngel_CostaDaniel_TallerWPF\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\User\Downloads\AldanaAngel_CostaDaniel_TallerWPF\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\User\Downloads\AldanaAngel_CostaDaniel_TallerWPF\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\User\Downloads\AldanaAngel_CostaDaniel_TallerWPF\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\User\Downloads\AldanaAngel_CostaDaniel_TallerWPF\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\User\Downloads\AldanaAngel_CostaDaniel_TallerWPF\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\User\Downloads\AldanaAngel_CostaDaniel_TallerWPF\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\User\Downloads\AldanaAngel_CostaDaniel_TallerWPF\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\AldanaAngel_CostaDaniel_TallerWPF\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\User\Downloads\AldanaAngel_CostaDaniel_TallerWPF\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\User\Desktop\Angel\Nueva carpeta\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\User\Desktop\Angel\Nueva carpeta\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\User\Desktop\Angel\Nueva carpeta\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\User\Desktop\Angel\Nueva carpeta\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Angel\Nueva carpeta\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\Angel\Nueva carpeta\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\Angel\Nueva carpeta\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\User\Desktop\Angel\Nueva carpeta\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\User\Desktop\Angel\Nueva carpeta\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\User\Desktop\Angel\Nueva carpeta\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\User\Desktop\Angel\Nueva carpeta\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Angel\Nueva carpeta\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Angel\Nueva carpeta\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\User\Desktop\Angel\Nueva carpeta\AldanaAngel_CostaDaniel_TallerWPF\TallerWPF-PrimerPunto\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb

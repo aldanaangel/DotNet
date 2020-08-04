@@ -1,0 +1,86 @@
+﻿@model ASPMVCTaller.Models.DatosTrabajador
+
+
+@{
+    ViewBag.Title = "Página de Presentación de los datos del trabajador";
+}
+
+<div id="formularioConsulta" style="padding:20px;">
+
+    <h2>Vista para mostrar los datos capturados por el formulario de Trabajadores</h2>
+    <br />
+    <table id="tablaTrabajadores" border="1" style="width:100%" cellpadding="10">
+        <tr>
+            <td style="width: 143px">
+                <label id="lbl_Nombre" for="txt_Nombre">Nombre Trabajador:</label>
+            </td>
+            <td>
+                <label id="txt_Nombre" name="txt_Nombre"><b>@Model.Nombre</b></label>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 143px">
+                <label id="lbl_Apellido" for="txt_Apellido">Apellido Trabajador:</label>
+            </td>
+            <td>
+                <label id="txt_Apellido" name="txt_Apellido"><b>@Model.Apellido</b></label>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 143px">
+                <label id="lbl_Horas" for="txt_Horas">Numero de horas trabajadas:</label>
+            </td>
+            <td>
+                <label id="txt_Horas" name="txt_Horas"><b>@Model.NumeroHoras</b></label>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 143px">
+                <label id="lbl_Valor" for="txt_Valor">Valor de la hora:</label>
+            </td>
+            <td>
+                <label id="txt_Valor" name="txt_Valor"><b>@Model.ValorHoras</b></label>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 143px">
+                <label id="lbl_Riesgo" for="txt_Riesgo">Nivel del riesgo:</label>
+            </td>
+            <td>
+                <label id="txt_Riesgo" name="txt_Riesgo"><b>@Model.ValorRiesgo</b></label>
+            </td>
+        </tr>
+        <tr>
+            <td><label id="informacionSalario">Cálculo del Salario</label></td>
+        </tr>
+        <tr>
+            <td><label id="salarioBruto">Salario Bruto</label></td>
+            <td><label>@ViewData["salarioBruto"]</label></td>
+        </tr>
+        <tr>
+            <td><label id="salud">Salud </label></td>
+            <td><label>@ViewData["salud"]</label></td>
+        </tr>
+        <tr>
+            <td><label id="pension">Pension</label></td>
+            <td><label>@ViewData["pension"]</label></td>
+        </tr>
+        <tr>
+            <td><label id="riesgos">Riesgos Profesionales</label></td>
+            <td><label>@ViewData["riesgos"]</label></td>
+        </tr>
+        <tr>
+            <td><label id="totalDescuentos">Total Descuentos</label></td>
+            <td><label>@ViewData["totalDescuentos"]</label></td>
+        </tr>
+        <tr>
+            <td><label id="sueldoNeto">Sueldo Neto</label></td>
+            <td><label>@ViewData["sueldoNeto"]</label></td>
+        </tr>
+
+    </table>
+    <br />
+    <br />
+</div>
+<div>
+    </div>

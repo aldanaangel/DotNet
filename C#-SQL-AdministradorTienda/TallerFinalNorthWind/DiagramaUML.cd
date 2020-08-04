@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TallerFinalNorthWind.clasesImplementadoras.ClaseImplementadoraCategorias" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEABCAAAAAAAAABAAAAAQAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>clasesImplementadoras\ClaseImplementadoraCategorias.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="fachadaServiciosDAO" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TallerFinalNorthWind.clasesImplementadoras.ClaseImplementadoraEmpleados" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QAEACAAgABAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>clasesImplementadoras\ClaseImplementadoraEmpleados.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="fachadaServiciosDAO" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TallerFinalNorthWind.clasesImplementadoras.ClaseImplementadoraProductos" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="5.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ACEAAAAAAAAAAAAAIACAACAQAAAEACBAAAAAAAAAAAA=</HashCode>
+      <FileName>clasesImplementadoras\ClaseImplementadoraProductos.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="fachadaServiciosDAO" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TallerFinalNorthWind.clasesImplementadoras.ClaseImplementadoraProveedores" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAIAAAAAACAAIAAAgAAAAAgA=</HashCode>
+      <FileName>clasesImplementadoras\ClaseImplementadoraProveedores.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="fachadaServiciosDAO" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TallerFinalNorthWind.crud.CrudCategorias">
+    <Position X="1.5" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>crud\CrudCategorias.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="instancia" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TallerFinalNorthWind.crud.CrudEmpleados">
+    <Position X="7" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>crud\CrudEmpleados.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="instancia" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TallerFinalNorthWind.menus.CrudProducto">
+    <Position X="4.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAEAAA=</HashCode>
+      <FileName>crud\CrudProducto.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="instancia" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TallerFinalNorthWind.menus.CrudProveedores">
+    <Position X="9.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>crud\CrudProveedores.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="instancia" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TallerFinalNorthWind.menus.MenuCategorias">
+    <Position X="0.5" Y="12.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>menus\MenuCategorias.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TallerFinalNorthWind.menus.MenuEmpleados">
+    <Position X="7" Y="12.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>menus\MenuEmpleados.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TallerFinalNorthWind.menus.MenuPrincipal">
+    <Position X="7.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>menus\MenuPrincipal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TallerFinalNorthWind.menus.MenuProductos">
+    <Position X="3.5" Y="12.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>menus\MenuProductos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TallerFinalNorthWind.menus.MenuProveedores">
+    <Position X="10.5" Y="12.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>menus\MenuProveedores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TallerFinalNorthWind.dao.CategoriaVO">
+    <Position X="22.25" Y="8.25" Width="1.5" />
+    <AssociationLine Name="categoryID" Type="System.String">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.937" Y="3.521" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="CategoryID" Type="System.String">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.626" Y="2.789" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAgAACAIAgAgAAIAAAIAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>dao\CategoriaVO.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="categoryID" />
+      <Property Name="CategoryID" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TallerFinalNorthWind.dao.DAOOperacionesCategoria">
+    <Position X="0.5" Y="9" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQBAAAAAQAAAACAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>dao\DAOOperacionesCategoria.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="generadorQueriesSQL" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TallerFinalNorthWind.dao.DAOOperacionesEmpleados">
+    <Position X="6.5" Y="9" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAQAAAAAAQAAAACQAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>dao\DAOOperacionesEmpleados.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="generadorQueriesSQL" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TallerFinalNorthWind.dao.DAOOperacionesProducto">
+    <Position X="3" Y="9" Width="3" />
+    <AssociationLine Name="generadorQueriesSQL" Type="TallerFinalNorthWind.dao.GeneradorConsultasCRUD">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.048" Y="-0.237" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAIACAAQAQAACEACAAAAAAAAAAAAA=</HashCode>
+      <FileName>dao\DAOOperacionesProducto.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="generadorQueriesSQL" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TallerFinalNorthWind.dao.DAOOperacionesProveedor">
+    <Position X="10.25" Y="9.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAQAAAACACCAAAAAAAAAAAgA=</HashCode>
+      <FileName>dao\DAOOperacionesProveedor.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="generadorQueriesSQL" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TallerFinalNorthWind.dao.EmpleadoVO">
+    <Position X="24.75" Y="9" Width="1.5" />
+    <AssociationLine Name="address" Type="System.String">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-3.598" Y="1.66" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Address" Type="System.String">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-3.288" Y="1.275" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAKgAEAA4ABAAGRIJAAEaCQAACIAA4ACAAGACAAAIAg=</HashCode>
+      <FileName>dao\EmpleadoVO.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="address" />
+      <Property Name="Address" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TallerFinalNorthWind.dao.GeneradorConsultasCRUD">
+    <Position X="15.75" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAICIACgAAICIAAIgAAAAACAAgACBAAAAAAA=</HashCode>
+      <FileName>dao\GeneradorConsultasCRUD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TallerFinalNorthWind.dao.ProductoVO">
+    <Position X="21.75" Y="12" Width="1.5" />
+    <AssociationLine Name="CategoryID" Type="System.String">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.201" Y="-0.151" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="categoryID" Type="System.String">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.077" Y="0.11" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>MGAAABBiAAAAAgBAAAAAQQAAAAEAAAAACCgAACgoAAA=</HashCode>
+      <FileName>dao\ProductoVO.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="categoryID" />
+      <Property Name="CategoryID" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TallerFinalNorthWind.dao.ProveedorVO">
+    <Position X="13.75" Y="9.25" Width="1.5" />
+    <AssociationLine Name="address" Type="System.String">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.263" Y="-0.101" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Address" Type="System.String">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.301" Y="0.085" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AASAQAAkgAAAACAIIAAgCCAAAAIAAAAiACACIAAAAkA=</HashCode>
+      <FileName>dao\ProveedorVO.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="address" />
+      <Property Name="Address" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TallerFinalNorthWind.Program">
+    <Position X="7.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.String" Collapsed="true">
+    <Position X="17.75" Y="13" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="TallerFinalNorthWind.interfaces.InterfazCategorias">
+    <Position X="1" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAABCAAAAAAAAABAAAAAQAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>interfaces\InterfazCategorias.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TallerFinalNorthWind.interfaces.InterfazEmpleados">
+    <Position X="6.5" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QAAACAAgABAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>interfaces\InterfazEmpleados.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TallerFinalNorthWind.interfaces.InterfazProductos">
+    <Position X="3.75" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIACAACAQAAAEACBAAAAAAAAAAAA=</HashCode>
+      <FileName>interfaces\InterfazProductos.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TallerFinalNorthWind.interfaces.InterfazProveedores">
+    <Position X="9.5" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAACAAIAAAgAAAAAgA=</HashCode>
+      <FileName>interfaces\InterfazProveedores.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

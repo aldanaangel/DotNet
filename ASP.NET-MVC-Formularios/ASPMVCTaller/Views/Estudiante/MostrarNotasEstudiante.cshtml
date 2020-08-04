@@ -1,0 +1,65 @@
+﻿@model ASPMVCTaller.Models.DatosEstudiante
+
+
+@{
+    ViewBag.Title = "Página de Presentación de los datos del trabajador";
+}
+
+<div id="formularioConsulta" style="padding:20px;">
+
+    <h2>Vista para mostrar los datos capturados por el formulario de Notas</h2>
+    <br />
+    <table id="tablaTrabajadores" border="1" style="width:100%" cellpadding="10">
+        <tr>
+            <td style="width: 143px">
+                <label id="lbl_Nombre" for="txt_Nombre">Nombre Estudiante:</label>
+            </td>
+            <td>
+                <label id="txt_Nombre" name="txt_Nombre"><b>@Model.Nombre</b></label>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 143px">
+                <label id="lbl_Apellido" for="txt_Apellido">Apellido Estudiante:</label>
+            </td>
+            <td>
+                <label id="txt_Apellido" name="txt_Apellido"><b>@Model.Apellido</b></label>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 143px">
+                <label id="lbl_Nota1" for="txt_Nota1">Nota 1:</label>
+            </td>
+            <td>
+                <label id="txt_Nota1" name="txt_Nota1"><b>@Model.Nota1</b></label>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 143px">
+                <label id="lbl_Nota2" for="txt_Nota2">Nota 2:</label>
+            </td>
+            <td>
+                <label id="txt_Nota2" name="txt_Nota2"><b>@Model.Nota2</b></label>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 143px">
+                <label id="lbl_Nota3" for="txt_Nota3">Nota 3:</label>
+            </td>
+            <td>
+                <label id="txt_Nota3" name="txt_Nota3"><b>@Model.Nota3</b></label>
+            </td>
+        </tr>
+        
+        <tr>
+            <td><label id="notaTotal">Sumatoria de nota: </label></td>
+            <td><label>@Model.NotaTotal</label></td>
+        </tr>
+        
+
+    </table>
+    <br />
+    <br />
+</div>
+<div>
+</div>

@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\TallerFinalNorthWind\TallerFinalNorthWind\bin\Debug\TallerFinalNorthWind.exe.config
+C:\Users\User\source\repos\TallerFinalNorthWind\TallerFinalNorthWind\bin\Debug\TallerFinalNorthWind.exe
+C:\Users\User\source\repos\TallerFinalNorthWind\TallerFinalNorthWind\bin\Debug\TallerFinalNorthWind.pdb
+C:\Users\User\source\repos\TallerFinalNorthWind\TallerFinalNorthWind\obj\Debug\TallerFinalNorthWind.csprojAssemblyReference.cache
+C:\Users\User\source\repos\TallerFinalNorthWind\TallerFinalNorthWind\obj\Debug\TallerFinalNorthWind.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\TallerFinalNorthWind\TallerFinalNorthWind\obj\Debug\TallerFinalNorthWind.exe
+C:\Users\User\source\repos\TallerFinalNorthWind\TallerFinalNorthWind\obj\Debug\TallerFinalNorthWind.pdb
